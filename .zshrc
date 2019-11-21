@@ -105,3 +105,4 @@ source $ZSH/oh-my-zsh.sh
 prompt_dir () {
     prompt_segment blue black "${PWD##*/}"
 }
+export DEFAULT_USER="$(whoami)" # remove username@laptop info from terminal

@@ -20,4 +20,7 @@ ZSH_THEME="agnoster"
 prompt_dir () {
     prompt_segment blue black "${PWD##*/}"
 }
+export DEFAULT_USER="$(whoami)" # remove username@laptop info from terminal
 ```
+
+## Sample .zshrc available in repo
